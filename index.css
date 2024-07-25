@@ -1,0 +1,20 @@
+.header {
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+}
+.logo-container img {
+  height: 132px;
+}
+.nav-items {
+  padding: 0px 20px;
+}
+.nav-item > ul {
+  font-size: 24px;
+  display: flex;
+  list-style-type: none;
+}
+.nav-item > ul > li {
+  padding: 10px;
+  margin: 10px;
+}
