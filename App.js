@@ -14,9 +14,11 @@ import ReactDOM from "react-dom/client";
 // - Links
 // - Address
 // - Contact
-const cardStyle = {
-  backgroundColor: "#c00f0f",
-};
+
+//Using inline css in react. Where cardStyle is not the class but js object.
+// const cardStyle = {
+//   backgroundColor: "#c00f0f",
+// };
 
 const Header = () => {
   return (
@@ -41,7 +43,7 @@ const Header = () => {
 
 const RestaurantCard = () => {
   return (
-    <div className="res-card" style={cardStyle}>
+    <div className="res-card" style={{ backgroundColor: "#c00f0f" }}>
       <h1>Haldiram food</h1>
     </div>
   );
