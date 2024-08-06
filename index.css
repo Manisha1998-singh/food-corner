@@ -18,3 +18,28 @@
   padding: 10px;
   margin: 10px;
 }
+.res-logo {
+  height: 270px !important;
+}
+.res-card {
+  float: left;
+  width: 240px !important;
+  padding: 5px !important;
+ 
+.res-info {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  width: 100% !important;
+}
+.res-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100% !important;
+  gap: 20px !important;
+  flex-wrap: wrap;
+}
+.res-container .card-border{
+  border: 1px solid black !important;
+}
